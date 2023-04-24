@@ -1,6 +1,12 @@
+
+
 <app-header></app-header>
 
 <!-- ******** CARDS **********-->
 <div class="grid">
-  <app-card *ngFor="let card of cards"></app-card>
+  <app-card [dataEntrada]="detalleVideos" 
+  *ngFor="let detalleVideos of listaVideos"></app-card>
 </div>
+
+<!-- ******** SIDEBAR LISTA FAVORITOS **********-->
+<app-sidebar></app-sidebar>

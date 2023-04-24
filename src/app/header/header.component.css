@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+
 .header{
     width: 100%;
     background-color: white;
@@ -19,12 +23,13 @@
 }
 
 .menu a{
-    font-weight: 600;
     padding: .5rem;
     text-align: center;
-    font-size: 1.1em;
     text-decoration: none;
     color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
     
 }
 
